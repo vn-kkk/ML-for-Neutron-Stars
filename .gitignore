@@ -1,0 +1,10 @@
+.conda/
+*.pdf
+**.docx
+**/outdir_*/
+**/Cluster\ run\ 1/
+**/00.\ Rough/
+**.txt
+**.sh
+**/results_*/
+**.npz
