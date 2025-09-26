@@ -1,5 +1,9 @@
 .conda/
 *.pdf
+**.png
+**.jpg
+**.jpeg
+**.pth
 **.docx
 **/outdir_*/
 **/Cluster\ run\ 1/
@@ -8,3 +12,4 @@
 **.sh
 **/results_*/
 **.npz
+**.Identifier
