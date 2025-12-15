@@ -1,0 +1,11 @@
+/var/spool/slurmd/job00959/slurm_script: line 13: module: command not found
+/var/spool/slurmd/job00959/slurm_script: line 14: module: command not found
+/var/spool/slurmd/job00959/slurm_script: line 15: module: command not found
+Traceback (most recent call last):
+  File "/cluster/users/venkatek/ML/399990files/Train_real.py", line 227, in <module>
+    plot_and_save_losses(train_losses, val_losses, filename=f"loss_curve_epoch{epoch}.png")
+  File "/cluster/users/venkatek/ML/399990files/Train_real.py", line 143, in plot_and_save_losses
+    plt.figure(figsize=(10, 6))
+  File "/cluster/users/venkatek/.conda/envs/ML/lib/python3.10/site-packages/matplotlib/_api/__init__.py", line 218, in __getattr__
+    raise AttributeError(
+AttributeError: module 'matplotlib' has no attribute 'figure'

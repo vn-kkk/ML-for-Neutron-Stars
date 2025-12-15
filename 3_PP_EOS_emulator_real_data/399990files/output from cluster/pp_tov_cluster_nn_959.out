@@ -1,0 +1,13 @@
+Job ID: 959
+Running on: hft-sascluster-135
+Starting at: Fri Dec 12 19:21:03 CET 2025
+Starting Python training script: train_ns_emulator.py
+Datasets loaded successfully!
+Normalization statistics saved.
+Epoch 0 | Val Loss: 5.007215e-05 | Approx Error: 0.2502 km
+Epoch 10 | Val Loss: 2.017069e-05 | Approx Error: 0.1588 km
+Epoch 20 | Val Loss: 2.069618e-05 | Approx Error: 0.1608 km
+Epoch 30 | Val Loss: 1.794747e-05 | Approx Error: 0.1498 km
+Epoch 40 | Val Loss: 1.923520e-05 | Approx Error: 0.1551 km
+Epoch 50 | Val Loss: 1.865801e-05 | Approx Error: 0.1527 km
+Job finished at: Sun Dec 14 02:21:14 CET 2025

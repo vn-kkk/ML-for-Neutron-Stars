@@ -1,15 +1,14 @@
 .conda/
-*.pdf
-**.png
-**.jpg
-**.jpeg
+**.pdf
 **.pth
 **.docx
-**/outdir_*/
-**/Cluster\ run\ 1/
-**/00.\ Rough/
-**.txt
 **.sh
-**/results_*/
-**.npz
 **.Identifier
+
+**/results_*/
+**/outdir_*/
+**/All_MR_Relations/
+
+**/1_Nuclear_EOS_emulator/
+**/2_PP_EOS_emulator/
+**/NN Model comparison/
