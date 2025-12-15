@@ -4,11 +4,12 @@
 **.docx
 **.sh
 **.Identifier
+**/*.npy
+**/*.npz
 
 **/results_*/
 **/outdir_*/
 **/All_MR_Relations/
+**/Outputs-Kay/
 
-**/1_Nuclear_EOS_emulator/
-**/2_PP_EOS_emulator/
 **/NN Model comparison/
