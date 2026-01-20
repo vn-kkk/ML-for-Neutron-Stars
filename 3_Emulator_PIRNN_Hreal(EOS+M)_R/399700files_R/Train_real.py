@@ -219,7 +219,7 @@ for epoch in range(EPOCHS):
         print(f"Epoch {epoch} | Val Loss: {val_loss:.6e} | Approx Error: {phys_error_km:.4f} km", flush=True) 
         
         # 3. PLOT AND SAVE PERIODICALLY
-        # Plot every 25 epochs (or choose a different interval)
+        # Plot every 50 epochs (or choose a different interval)
         if epoch % 25 == 0 and epoch > 0:
             plot_and_save_losses(train_losses, val_losses, filename=f"loss_curve_epoch{epoch}.png")
 

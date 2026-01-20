@@ -14,7 +14,7 @@ BATCH_SIZE = 256
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 EPOCHS = 100
 NUM_FILES_TO_USE = 399700
-save_dir = f"{NUM_FILES_TO_USE}files"
+# save_dir = f"{NUM_FILES_TO_USE}files"
 
 # ==============================================================================
 # LOADING DATASETS for cluster:

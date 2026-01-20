@@ -104,9 +104,9 @@ CORRECT.
 
 CORRECT.
 
-#### 399700files\_interpM\_R ✨🏃
+#### 399700files\_interpM\_R ✨✅
 
-Running on Cluster ...
+CORRECT
 
 
 
@@ -132,9 +132,9 @@ Delete if not used
 
 CORRECT.
 
-#### 399700files\_MRTD ✨⏳
+#### 399700files\_MRTD ✨ᯓ🏃🏻‍♀️‍➡️
 
-Cluster run pending
+Cluster running ...
 
 
 

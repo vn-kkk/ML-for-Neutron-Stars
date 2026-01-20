@@ -1,0 +1,13 @@
+Job ID: 985
+Running on: hft-sascluster-135
+Starting at: Mon Jan 19 16:21:19 CET 2026
+Starting Python training script: Train_real.py
+Datasets loaded successfully!
+Normalization statistics saved.
+Epoch 0 | Val Loss: 7.641687e-06 | Approx Error: 0.0977 km
+Epoch 10 | Val Loss: 4.748475e-06 | Approx Error: 0.0770 km
+Epoch 20 | Val Loss: 4.782972e-06 | Approx Error: 0.0773 km
+Epoch 30 | Val Loss: 1.340600e-05 | Approx Error: 0.1295 km
+Epoch 40 | Val Loss: 4.225551e-06 | Approx Error: 0.0727 km
+Epoch 50 | Val Loss: 3.067155e-06 | Approx Error: 0.0619 km
+Job finished at: Tue Jan 20 14:08:31 CET 2026

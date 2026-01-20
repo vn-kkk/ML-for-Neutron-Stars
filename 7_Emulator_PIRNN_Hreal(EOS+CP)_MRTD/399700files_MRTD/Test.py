@@ -80,7 +80,7 @@ RADIUS_SCALE = 25.0
 MASS_SCALE = 3.5
 NUM_FILES_TO_USE = 399700
 
-save_dir = f"{NUM_FILES_TO_USE}files"
+save_dir = f"{NUM_FILES_TO_USE}files_MRTD"
 
 N_MR_FILES = 10          # for Mass–Radius plot
 N_TD_FILES = 1           # for Compactness–Tidal plot

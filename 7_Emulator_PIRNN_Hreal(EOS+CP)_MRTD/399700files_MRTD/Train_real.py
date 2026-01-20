@@ -14,7 +14,7 @@ BATCH_SIZE = 256
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 EPOCHS = 100
 NUM_FILES_TO_USE = 399700
-save_dir = f"{NUM_FILES_TO_USE}files"
+# save_dir = f"{NUM_FILES_TO_USE}files_MRTD"
 
 # ==============================================================================
 # LOADING DATASETS for cluster:
@@ -50,8 +50,8 @@ X_eos_std = X_eos_train.std(dim=0, keepdim=True)
 X_eos_std[X_eos_std == 0] = 1.0 
 
 # Save them:
-torch.save(X_eos_mean, os.path.join(save_dir, "X_eos_mean.pt"))
-torch.save(X_eos_std, os.path.join(save_dir, "X_eos_std.pt"))
+torch.save(X_eos_mean, "X_eos_mean.pt")
+torch.save(X_eos_std, "X_eos_std.pt")
 print("Normalization statistics saved.")
 
 X_eos_train_norm = (X_eos_train - X_eos_mean) / X_eos_std
