@@ -1,0 +1,9 @@
+Radius prediction metrics with interpolated mass
+================================================
+
+1000 files
+
+MAE   : 0.069960
+RMSE  : 0.156865
+R^2   : 0.992612
+Norm RMSE : 0.009402

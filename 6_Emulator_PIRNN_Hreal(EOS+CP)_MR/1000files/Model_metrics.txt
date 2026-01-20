@@ -1,0 +1,9 @@
+Radius and TD prediction metrics
+================================
+
+1000 files 
+
+MAE   : 0.031157
+RMSE  : 0.127608
+R^2   : 0.998672
+Norm RMSE : 0.005085

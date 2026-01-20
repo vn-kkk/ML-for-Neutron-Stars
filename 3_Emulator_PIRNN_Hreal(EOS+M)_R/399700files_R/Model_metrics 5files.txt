@@ -1,0 +1,6 @@
+Radius prediction metrics
+=========================
+MAE   : 0.031049
+RMSE  : 0.057182
+R^2   : 0.999379
+Norm RMSE : 0.003723

@@ -1,0 +1,9 @@
+Radius prediction metrics
+=========================
+
+399700 files
+
+MAE   : 0.024232
+RMSE  : 0.118908
+R^2   : 0.998266
+Norm RMSE : 0.008078
