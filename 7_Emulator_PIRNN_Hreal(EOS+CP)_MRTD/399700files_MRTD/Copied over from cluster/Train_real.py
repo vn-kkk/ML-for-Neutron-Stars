@@ -235,8 +235,10 @@ for epoch in range(EPOCHS):
     if epoch % 10 == 0:
         # Calculate the Approximate Physical Error in km
         phys_error_km = np.sqrt(2 * val_loss) * RADIUS_SCALE 
+        mass_error = np.sqrt(2 * val_loss) * MASS_SCALE
+        td_error = np.sqrt(2 * val_loss)  # In log units
         
-        print(f"Epoch {epoch} | Val Loss: {val_loss:.6e} | Approx Error: {phys_error_km:.4f} km", flush=True) 
+        print(f"Epoch {epoch} | Val Loss: {val_loss:.6e} | Approx Radius Error: {phys_error_km:.4f} km | Mass Error: {mass_error:.4f} Msun | TD Error: {td_error:.4f}", flush=True) 
         
         # 3. PLOT AND SAVE PERIODICALLY
         # Plot every 25 epochs (or choose a different interval)

@@ -1,0 +1,11 @@
+Radius and Mass prediction metrics
+================================
+MAE  radius  : 0.007327
+RMSE  radius : 0.010678
+R^2   radius : 0.999989
+
+MAE  mass   : 0.000002
+RMSE  mass   : 0.001517
+R^2   mass   : 0.999998
+
+Norm RMSE : 0.001030

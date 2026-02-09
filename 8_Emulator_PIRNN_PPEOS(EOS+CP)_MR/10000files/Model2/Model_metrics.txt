@@ -1,0 +1,6 @@
+Radius and TD prediction metrics
+================================
+MAE   : 42.250298
+RMSE  : 292.257846
+R^2   : 0.738728
+Norm RMSE : 2.677171

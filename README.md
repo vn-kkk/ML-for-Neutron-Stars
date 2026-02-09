@@ -24,6 +24,8 @@ IDEAL EXAMPLE
 
 
 
+
+
 ### 1\_Emulator\_NN\_NuclearEOS(EOS+CP)\_MR
 
 NN trained on Nuclear EOS parameters and central pressure to predict Mass, Radius and Tidal Deformability: Kay\_TOV\_Emulator.ipynb and TOV\_Emulator\_Kay
@@ -50,6 +52,8 @@ NOT GOOD ENOUGH
 
 
 
+
+
 ### 2\_Emulator\_NN\_PPEOS(EOS+CD)\_MR
 
 NN trained on Piecewise Polytropic EOS and central density to predict Mass and Radius:PP\_TOV\_Emulator.ipynb
@@ -65,6 +69,8 @@ Different versions of the Emulator exists within the folder.
 
 
 NOT GOOD ENOUGH
+
+
 
 
 
@@ -88,11 +94,15 @@ CORRECT.
 
 
 
+
+
 ### 4\_Emulator\_PIRNN\_Hreal(EOS+M)\_RTD
 
 #### 1000files ✅
 
 CORRECT.
+
+
 
 
 
@@ -112,6 +122,8 @@ CORRECT
 
 
 
+
+
 ### 6\_Emulator\_PIRNN\_Hreal(EOS+CP)\_MR
 
 #### 1000files ✅
@@ -126,15 +138,21 @@ Delete if not used
 
 
 
+
+
 ### 7\_Emulator\_PIRNN\_Hreal(EOS+CP)\_MRTD
 
 #### 1000files ✅
 
 CORRECT.
 
-#### 399700files\_MRTD ✨ᯓ🏃🏻‍♀️‍➡️
+399700files\_MRTD ✨ᯓ🏃🏻‍♀️‍➡️
 
 Cluster running ...
+
+
+
+
 
 
 

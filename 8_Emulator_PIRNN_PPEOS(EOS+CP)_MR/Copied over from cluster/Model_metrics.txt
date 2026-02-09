@@ -1,0 +1,14 @@
+Radius and Mass prediction metrics
+==================================
+
+400000 files
+
+MAE  radius  : 0.009161
+RMSE  radius : 0.012913
+R^2   radius : 0.999987
+
+MAE  mass   : 0.000006
+RMSE  mass   : 0.002542
+R^2   mass   : 0.999991
+
+Norm RMSE : 0.001392
