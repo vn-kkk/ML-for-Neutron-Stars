@@ -1,8 +1,8 @@
 # Naming convention:
 
-Eg: 3\_Emulator\_PIRNN\_Hreal(EOS+M)\_R
+Eg: 3\_Emulator\_ResNet\_Tabular(EOS+M)\_R
 
-&nbsp;   Order of folder created\_Emulator\_Kind of NN\_kind of EOS and data(input parameters)\_Output parameters
+    Order of folder created\_Emulator\_Kind of NN\_kind of EOS\_(input parameters)\_Output parameters
 
 # -----------------------------------------
 
@@ -32,13 +32,13 @@ NN trained on Nuclear EOS parameters and central pressure to predict Mass, Radiu
 
 Contains Different Emulators to predict individual parameters only: Kay\_TOV\_...\_Emulator.ipynb
 
-&nbsp;	Mass
+ 	Mass
 
-&nbsp;	MaxMass
+ 	MaxMass
 
-&nbsp;	Radius	
+ 	Radius
 
-&nbsp;	TD
+ 	TD
 
 
 
@@ -58,13 +58,13 @@ NOT GOOD ENOUGH
 
 NN trained on Piecewise Polytropic EOS and central density to predict Mass and Radius:PP\_TOV\_Emulator.ipynb
 
-Different versions of the Emulator exists within the folder. 
+Different versions of the Emulator exists within the folder.
 
-&nbsp;	Emulator\_2
+ 	Emulator\_2
 
-&nbsp;	Emulator\_3
+ 	Emulator\_3
 
-&nbsp;	Emulator\_4
+ 	Emulator\_4
 
 
 
@@ -76,7 +76,7 @@ NOT GOOD ENOUGH
 
 
 
-### 3\_Emulator\_PIRNN\_Hreal(EOS+M)\_R
+### 3\_Emulator\_ResNet\_Tabular(EOS+M)\_R
 
 Final version of the code before Christmas. But the dataset was created wrongly!
 
@@ -86,7 +86,7 @@ Emulator\_real.ipynb is the working code for small local runs. The big folders h
 
 CORRECT.
 
-#### 399700files\_R ✨✅
+#### 399700files\_R ✅
 
 CORRECT.
 
@@ -96,7 +96,7 @@ CORRECT.
 
 
 
-### 4\_Emulator\_PIRNN\_Hreal(EOS+M)\_RTD
+### 4\_Emulator\_ResNet\_Tabular(EOS+M)\_RTD
 
 #### 1000files ✅
 
@@ -108,13 +108,13 @@ CORRECT.
 
 
 
-### 5\_Emulator\_PIRNN\_Hreal(EOS+interpM)\_R
+### 5\_Emulator\_ResNet\_Tabular(EOS+interpM)\_R
 
 #### 1000files ✅
 
 CORRECT.
 
-#### 399700files\_interpM\_R ✨✅
+#### 399700files\_interpM\_R ✅
 
 CORRECT
 
@@ -124,7 +124,7 @@ CORRECT
 
 
 
-### 6\_Emulator\_PIRNN\_Hreal(EOS+CP)\_MR
+### 6\_Emulator\_ResNet\_Tabular(EOS+CP)\_MR
 
 #### 1000files ✅
 
@@ -140,23 +140,51 @@ Delete if not used
 
 
 
-### 7\_Emulator\_PIRNN\_Hreal(EOS+CP)\_MRTD
+### *7\_Emulator\_ResNet\_Tabular(EOS+CP)\_MRTD*
 
 #### 1000files ✅
 
 CORRECT.
 
-399700files\_MRTD ✨ᯓ🏃🏻‍♀️‍➡️
-
-Cluster running ...
 
 
+#### 400000files ✅✨ 
 
-
+CORRECT.
 
 
 
-### 8\_Emulator\_PIRNN\_PPEOS(EOS+CD)\_MR
 
-Adapting the PIRNN to train on PPEOS
+
+### 8\_Emulator\_ResNet\_PPEOS(EOS+CD)\_MR
+
+Adapting the ResNet to train on PPEOS
+
+#### 10000files ✅
+
+CORRECT.
+
+
+
+#### 400000files ✅
+
+CORRECT.
+
+
+
+
+
+### *9\_Emulator\_ResNet\_PPEOS(EOS+CD)\_MRTD*
+
+#### 100files ✅
+
+WEAK RESULTS.
+
+
+
+#### 400000files ✅✨
+
+CORRECT.
+
+
 
