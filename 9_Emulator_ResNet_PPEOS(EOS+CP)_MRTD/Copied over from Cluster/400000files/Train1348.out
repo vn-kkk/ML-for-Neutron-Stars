@@ -1,0 +1,16 @@
+Job ID: 1348
+Running on: hft-sascluster-135
+Starting at: Mon Jan 26 20:03:06 CET 2026
+Starting Python training script: Test.py
+Kept 313204 / 400000 samples
+Datasets created and saved!
+Using device: cpu
+Normalization statistics saved.
+Epoch 0 | Train Loss: 8.255762e-03 | Val Loss: 2.226336e-04 | Approx Radius Error: 0.5275 km | Approx Mass Error: 0.0739 | Approx TD error: 0.0211
+Epoch 100 | Train Loss: 1.315556e-05 | Val Loss: 6.808985e-07 | Approx Radius Error: 0.0292 km | Approx Mass Error: 0.0041 | Approx TD error: 0.0012
+Epoch 200 | Train Loss: 2.771666e-06 | Val Loss: 9.192866e-07 | Approx Radius Error: 0.0339 km | Approx Mass Error: 0.0047 | Approx TD error: 0.0014
+Epoch 300 | Train Loss: 1.247809e-06 | Val Loss: 1.048823e-06 | Approx Radius Error: 0.0362 km | Approx Mass Error: 0.0051 | Approx TD error: 0.0014
+Early stopping at epoch 357
+Training finished. Best validation loss: 0.0000000585
+Loss plot saved to loss_curve_final.png
+Job finished at: Wed Feb  4 07:05:33 CET 2026
